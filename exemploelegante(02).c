@@ -8,6 +8,6 @@ int main() {
     for (i=0; i<5; i++){
         s += numbers[i];
     }
-    printf("%f\n", s);
+    printf("%f\n", s/5);
     return 0;
 }
