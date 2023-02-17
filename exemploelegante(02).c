@@ -5,10 +5,9 @@ int main() {
     int i;
     float s = 0;
 
-    for (i=0; i<5; i++) {
+    for (i=0; i<5; i++){
         s += numbers[i];
     }
-
     printf("%f\n", s);
     return 0;
 }
